@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m0502_t004">" "</string>
+    <string name="m0502_r002a">"小於28歲 "</string>
+    <string name="m0502_r002b">"28~33歲 "</string>
+    <string name="m0502_r002c">"大於33歲 "</string>
+    <string name="m0502_a001b">女</string>
+    <string name="m0502_t001">性別:</string>
+    <string name="m0502_s001">性別選擇</string>
+    <string name="m0502_b001">優惠查詢</string>
+
+    <string name="m0502_f001">此刻全館文具區九五折!</string>
+    <string name="m0502_f002">目前尚無符合資格之優惠。</string>
+    <string name="m0502_f003">父親節快樂! 此刻全館替您折15%!</string>
+
+    <string name="m0502_f004">恭喜您，此刻衛浴用品折抵10%!</string>
+    <string name="m0502_f005">提醒您，此刻買千送百活動即將到期～</string>
+    <string name="m0502_f006">母親節快樂! 此刻全館替您折底15%!</string>
+    <string name="m0502_t003">"結果: "</string>
+
+    <string name="m0502_t002">年齡:</string>
+    <string name="chk01">男</string>
+    <string name="m0502_f000">  </string>
+    <string name="m0502_r001a">男</string>
+    <string name="m0502_r001b">女</string>
+    <!--男-->
+    <string name="m0502_r002aa">小於28歲</string>
+    <string name="m0502_r002ab">28~33歲</string>
+    <string name="m0502_r002ac">大於33歲</string>
+    <!--女-->
+    <string name="m0502_r002ba">小於25歲</string>
+    <string name="m0502_r002bb">25~30歲</string>
+    <string name="m0502_r002bc">大於30歲</string>
+</resources>
