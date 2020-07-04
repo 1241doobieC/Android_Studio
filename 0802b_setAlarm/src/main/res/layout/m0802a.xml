@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Black"
+    android:padding="@dimen/Padding"
+    android:splitMotionEvents="false">
+
+    <TextView
+        android:id="@+id/m0802a_ans01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Aqua"
+
+        android:text="@string/txtResult"
+        android:textColor="@color/Navy"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <DatePicker
+        android:id="@+id/m0802a_calendar"
+        style="@style/MyDatePicker01"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:background="@color/Lime"
+        android:calendarViewShown="false"
+        android:dateTextAppearance="@style/TextAppearance.AppCompat.Large"
+        android:dayOfWeekTextAppearance="@style/TextAppearance.AppCompat.Large"
+        android:headerBackground="@color/colorPrimary"
+        android:visibility="visible"
+        android:weekDayTextAppearance="@style/TextAppearance.AppCompat.Large"
+        android:weekNumberColor="@color/Black" />
+
+    <TimePicker
+        android:id="@+id/m0802a_time"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@+id/m0802a_calendar"
+        android:background="@color/Lime"
+        android:inputType="time"
+        android:numbersInnerTextColor="@color/Navy"
+        android:numbersTextColor="@color/Navy"
+        android:theme="@style/MyTimePicker"
+        android:timePickerMode="spinner" />
+
+    <Button
+        android:id="@+id/m0802a_b001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0802a_time"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/Yellow"
+        android:text="@string/m0802_ans01"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/m0802a_b002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0802a_time"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/Yellow"
+        android:text="@string/m0802b_btn02"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/m0802a_t001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:background="@color/Yellow"
+        android:text="@string/m0802_alerm"
+        android:textColor="@color/Navy"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/m0802a_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="11dp"
+        android:layout_toEndOf="@+id/m0802a_t001"
+        android:background="@color/Yellow"
+        android:text="@string/timer"
+        android:textColor="@color/Navy"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/Yellow"
+        android:text="@string/myName"
+        android:textColor="@color/Navy"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+</RelativeLayout>

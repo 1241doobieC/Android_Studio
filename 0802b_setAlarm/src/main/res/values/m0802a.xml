@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m0802_timer">00:00:00</string>
+    <string name="btnOK">確定</string>
+    <string name="txtResult">你選擇:</string>
+    <string name="n_yy">年</string>
+    <string name="n_mm">月</string>
+    <string name="m_dd">日</string>
+    <string name="d_hh">點</string>
+    <string name="d_mm">分</string>
+    <string name="timer">88：88：88</string>
+    <string name="text001"></string>
+    <string name="msg">別鬧了，這樣的時間有意義嗎? 請重新設定!</string>
+    <string name="m0802_ans01">選擇</string>
+    <string name="m0802_alerm">鬧鐘倒數計時</string>
+    <string name="m0802_play">鬧鐘播放</string>
+    <string name="error">時間不符</string>
+    <string name="m0802b_btn02">取消鬧鐘</string>
+</resources>
